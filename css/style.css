@@ -1,0 +1,28 @@
+
+table {
+    width: 100%;
+    border-collapse: collapse; 
+  }
+
+  th, td {
+    border: 1px solid #ddd; 
+    padding: 12px; 
+    text-align: center; 
+  }
+
+  th {
+    background-color: #f2f2f2; /* Cor de fundo para o cabeçalho */
+    font-weight: bold; /* Negrito no cabeçalho */
+  }
+
+  tr:nth-child(even) {
+    background-color: #f9f9f9; /* Fundo alternado para as linhas pares */
+  }
+
+  tr:hover {
+    background-color: #e0e0e0; /* Cor de fundo ao passar o mouse sobre a linha */
+  }
+
+  img {
+    height: 100px;
+  }
