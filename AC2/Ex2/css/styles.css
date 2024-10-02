@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    font-family: sans-serif;
+    height: 100%;
+}
+
+.menu-superior {
+    width: 100%;
+    height: 60px;
+    background-color: #4A154B;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    padding: 0;
+    z-index: 1000;
+}
+
+.menu-superior ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.menu-superior li {
+    display: inline-block;
+}
+
+.menu-superior li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+}
+
+.menu-superior li a:hover {
+    background-color: #774379;
+    border-radius: 5px;
+}
+
+.menu-lateral {
+    width: 20%;
+    height: calc(100% - 60px); 
+    background-color: #553159;
+    position: fixed;
+    top: 60px;
+    left: 0;
+    padding: 20px;
+}
+
+.menu-lateral ul {
+    list-style: none; 
+    padding: 0; 
+}
+
+.menu-lateral li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 10px 0;
+}
+
+.menu-lateral li a:hover {
+    background-color: #774379;
+}
+
+
+.conteudo {
+    margin-left: 20%;
+    margin-top: 60px;
+    padding: 20px;
+    background-color: #F0E6F5;
+    height: calc(100vh - 120px);
+    overflow: auto;
+}
+
+.conteudo h2, p {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+.rodape {
+    width: 100%;
+    height: 60px;
+    background-color: #4A154B;
+    color: white;
+    text-align: center;
+    line-height: 60px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
